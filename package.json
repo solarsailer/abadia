@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Set of tools to help translate, fix, tweak and improve key-value i18n files.",
   "license": "MIT",
+  "repository": "https://github.com/solarsailer/abadia/",
+  "homepage": "https://github.com/solarsailer/abadia/#readme",
+  "bugs": "https://github.com/solarsailer/abadia/issues",
   "author": {
     "name": "Matthieu Oger",
     "url": "https://solarsailer.net/"
