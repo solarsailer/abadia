@@ -6,6 +6,18 @@ Already usable.
 
 The reader (the most important part) is, of course, not open-sourced yet (we have one in C# for Unity, used by the game [Steredenn](http://steredenn.pixelnest.io/)).
 
+## Install
+
+```
+yarn global add abadia
+```
+
+Then, run:
+
+```
+abadia --help
+```
+
 ## Commands
 
 1. `clean` removes all the fluffs from a file (comments, etc.). Useful for diffing a file.
