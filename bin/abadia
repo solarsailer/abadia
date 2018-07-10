@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict'
 
 const program = require('commander')
 const chalk = require('chalk')
@@ -12,5 +13,9 @@ const pkg = require('../package.json')
 program
   .version(pkg.version, '-v, --version')
   .description(chalk.blue(pkg.description))
+  .command(
+    'convert <input>',
+    'Convert two files to an intermediate representation'
+  )
   .command('clean <input>', 'Clean comments and sort alphabetically')
   .parse(process.argv)
