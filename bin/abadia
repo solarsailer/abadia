@@ -17,6 +17,10 @@ program
     'convert <input>',
     'Convert two files to an intermediate representation'
   )
+  .command(
+    'translate <input>',
+    'Add translation to intermediate representation'
+  )
   .command('select <input>', 'Select correct values interactively')
   .command('clean <input>', 'Clean comments and sort alphabetically')
   .parse(process.argv)
