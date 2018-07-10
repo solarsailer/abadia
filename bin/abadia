@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+const chalk = require('chalk')
+
+const pkg = require('../package.json')
+
+// -------------------------------------------------------------
+// Program.
+// -------------------------------------------------------------
+
+program
+  .version(pkg.version, '-v, --version')
+  .description(chalk.blue(pkg.description))
+  .command('clean <input>', 'Clean comments and sort alphabetically')
+  .parse(process.argv)
