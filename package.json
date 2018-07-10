@@ -1,0 +1,29 @@
+{
+  "name": "abadia",
+  "version": "0.1.0",
+  "description": "Set of tools to help translate, fix, tweak and improve key-value i18n files.",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "Matthieu Oger",
+    "url": "https://solarsailer.net/"
+  },
+  "contributors": [
+    {
+      "name": "Pixelnest Studio",
+      "url": "https://pixelnest.io/"
+    }
+  ],
+  "bin": "./bin/abadia",
+  "scripts": {
+    "start": "./bin/abadia"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "^0.10.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "google-translate-api": "^2.3.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {}
+}
