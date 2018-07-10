@@ -72,3 +72,14 @@ Français
 
 Common_Play = Jouer
 ```
+
+## TODO
+
+- [ ] Improve docs
+- [ ] Add `format` command
+- [ ] Add `check` command
+- [ ] Add tests with jest
+- [ ] Use [ora](https://github.com/sindresorhus/ora) for `translate`
+- [ ] Use [esm](https://github.com/standard-things/esm)
+- [ ] Open-source Unity C# reader
+- [ ] Open-source JS reader
